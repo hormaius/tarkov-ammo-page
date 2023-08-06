@@ -1,0 +1,49 @@
+@import url("https://fonts.cdnfonts.com/css/bender");
+
+:root {
+  font-size: 16px;
+}
+
+* {
+  color: #dbc59c;
+  font-family: "Bender", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  overflow-x: hidden;
+  background-color: black;
+  background: url("/public/background.svg");
+}
+
+body > #root > div {
+  height: 100vh;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.centered {
+  text-align: center;
+}
+
+.color-0,
+.color-1,
+.color-2,
+.color-3,
+.color-4,
+.color-5,
+.color-6 {
+  color: black;
+}

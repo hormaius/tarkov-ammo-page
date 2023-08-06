@@ -1,0 +1,188 @@
+/* 
+FONTS
+Bender - MAIN
+
+
+/// COLORS
+#aeaeb0 - FONT
+#9A8866 - FONT, BUTTONS
+#dbc59c - FONT, BORDERS
+/// COLORS - CHART TIERS - used to class penetration tiers for various ammo
+#CF0B04 - TIER 0
+#DC3B07 - TIER 1
+#EA6B0A - TIER 2
+#F99D10 - TIER 3
+#C0B825 - TIER 4
+#87D43D - TIER 5
+#4CF057 - TIER 6
+/// COLORS - MISC
+#383932 - BG FOR TABLE
+
+/// GRADIENTS
+*** NORMAL
+background: rgb(154, 136, 96);
+  background: linear-gradient(
+    180deg,
+    rgba(154, 136, 96, 1) 1%,
+    rgba(113, 101, 76, 1) 100%
+  );
+*** ON HOVER
+background: rgb(224, 198, 138);
+  background: linear-gradient(
+    180deg,
+    rgba(224, 198, 138, 1) 1%,
+    rgba(154, 136, 96, 1) 100%
+  );
+*/
+
+.main-page {
+  margin: 0 auto;
+}
+
+header {
+  margin: 0 auto;
+  width: 70vw;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.app-logo {
+  max-height: 15vh;
+  width: auto;
+}
+
+.app-bars {
+  padding: 0.2rem 0.2rem;
+  font-weight: bold;
+  font-size: larger;
+  border: 2px solid #dbc59c;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main img {
+  opacity: 0.7;
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  object-position: top center;
+  border-top: 1px solid #dbc59c;
+  border-bottom: 1px solid #dbc59c;
+  margin-bottom: 5vh;
+}
+
+article {
+  width: 40vw;
+  margin-bottom: 5vh;
+}
+
+.cta--title {
+  color: #9a8866;
+}
+
+span {
+  color: #aeaeb0;
+}
+
+section {
+  width: 60vw;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0px;
+}
+
+th {
+  background-color: #383932;
+  padding: 0.5rem;
+}
+
+td {
+  padding: 0.5rem;
+  border-bottom: 1px solid#dbc59c;
+}
+
+tr {
+  border: 1px solid white;
+}
+
+.color-0 {
+  background-color: #cf0b04;
+}
+.color-1 {
+  background-color: #dc3b07;
+}
+.color-2 {
+  background-color: #ea6b0a;
+}
+.color-3 {
+  background-color: #f99d10;
+}
+.color-4 {
+  background-color: #c0b825;
+}
+.color-5 {
+  background-color: #87d43d;
+}
+.color-6 {
+  background-color: #4cf057;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer h4,
+footer p {
+  text-align: center;
+}
+
+.footer-div {
+  display: flex;
+}
+
+.cta-btn {
+  background: rgb(154, 136, 96);
+  background: linear-gradient(
+    180deg,
+    rgba(154, 136, 96, 1) 1%,
+    rgba(113, 101, 76, 1) 100%
+  );
+
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 0.7rem;
+  cursor: pointer;
+
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #383932;
+}
+
+.cta-btn:hover {
+  background: rgb(224, 198, 138);
+  background: linear-gradient(
+    180deg,
+    rgba(224, 198, 138, 1) 1%,
+    rgba(154, 136, 96, 1) 100%
+  );
+}
